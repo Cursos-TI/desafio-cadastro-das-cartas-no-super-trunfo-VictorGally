@@ -30,15 +30,15 @@ int main() {
     printf("Código da cidade é: %d\n", cidade);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%d", &nome);
-    printf("A altura é: %d\n", nome);
+    scanf("%s", &nome);
+    printf("O nome da cidade é: %s\n", nome);
 
     printf("Digite a população da cidade: \n");
     scanf("%f", populacao);
     printf("A população é: %f\n", populacao);
 
     printf("Digite a área da cidade: \n");
-    scanf("%f", &area);
+    scanf("%f", area);
     printf("A área da cidade é: %f\n", area);
 
     printf("Digite o PIB da cidade: \n");
